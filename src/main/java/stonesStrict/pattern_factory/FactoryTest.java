@@ -1,4 +1,7 @@
-package stonesStrict.pattern_factory.factory;
+package stonesStrict.pattern_factory;
+
+import stonesStrict.pattern_factory.factory.MilkAbstractFactory;
+import stonesStrict.pattern_factory.factory.MilkSimpleFactory;
 
 /**
  * Created by 石头 on 2018/4/15.
