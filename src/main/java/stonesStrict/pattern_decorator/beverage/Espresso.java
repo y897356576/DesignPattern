@@ -1,4 +1,4 @@
-package stonesStrict.pattern_decorator.beverageChildren;
+package stonesStrict.pattern_decorator.beverage;
 
 import stonesStrict.pattern_decorator.Beverage;
 

@@ -1,10 +1,10 @@
 package stonesStrict.pattern_decorator;
 
-import stonesStrict.pattern_decorator.beverageChildren.Espresso;
-import stonesStrict.pattern_decorator.beverageChildren.HouseBlend;
-import stonesStrict.pattern_decorator.condimentChildren.Milk;
-import stonesStrict.pattern_decorator.condimentChildren.Mocha;
-import stonesStrict.pattern_decorator.condimentChildren.Whip;
+import stonesStrict.pattern_decorator.beverage.Espresso;
+import stonesStrict.pattern_decorator.beverage.HouseBlend;
+import stonesStrict.pattern_decorator.condiment.Milk;
+import stonesStrict.pattern_decorator.condiment.Mocha;
+import stonesStrict.pattern_decorator.condiment.Whip;
 
 /**
  * Hello world!
