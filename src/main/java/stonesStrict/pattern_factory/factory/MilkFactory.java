@@ -1,14 +1,11 @@
 package stonesStrict.pattern_factory.factory;
 
-import stonesStrict.pattern_factory.product.Mengniu;
-import stonesStrict.pattern_factory.product.Milk;
-import stonesStrict.pattern_factory.product.Sanyuan;
-import stonesStrict.pattern_factory.product.Yili;
+import stonesStrict.pattern_factory.product.*;
 
 /**
  * Created by 石头 on 2018/4/15.
  */
-public class MilkAbstractFactory {
+public class MilkFactory {
 
     public static Milk getMengniu() {
         return new Mengniu();
@@ -23,7 +20,7 @@ public class MilkAbstractFactory {
     }
 
     public static Milk getTelunsu() {
-        return TelunsuFactory.getMilk();
+        return new Telunsu();
     }
 
 }

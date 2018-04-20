@@ -1,6 +1,6 @@
 package stonesStrict.pattern_factory;
 
-import stonesStrict.pattern_factory.factory.MilkAbstractFactory;
+import stonesStrict.pattern_factory.factory.MilkFactory;
 import stonesStrict.pattern_factory.factory.MilkSimpleFactory;
 
 /**
@@ -9,8 +9,8 @@ import stonesStrict.pattern_factory.factory.MilkSimpleFactory;
 public class FactoryTest {
 
     public static void main(String[] args) {
-        System.out.println(MilkAbstractFactory.getMengniu().getName());
-        System.out.println(MilkAbstractFactory.getTelunsu().getName());
+        System.out.println(MilkFactory.getMengniu().getName());
+        System.out.println(MilkFactory.getTelunsu().getName());
 
         System.out.println(MilkSimpleFactory.getMilk("三元").getName());
         System.out.println(MilkSimpleFactory.getMilk("三次元").getName());
