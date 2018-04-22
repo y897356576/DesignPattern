@@ -3,20 +3,20 @@ package stonesStrict.pattern_singleton;
 /**
  * Created by admin on 2018/4/20.
  */
-public class SingleObj {
+public class SingleObjSec {
 
-    private static SingleObj obj;
+    private static SingleObjSec obj;
 
-    private SingleObj() {}
+    private SingleObjSec() {}
 
-    public static SingleObj getSingleObj() {
+    public static SingleObjSec getSingleObj() {
         if (obj != null) {
             return obj;
         }
 
         synchronized (obj) {
             if (obj == null) {
-                obj = new SingleObj();
+                obj = new SingleObjSec();
             }
             return obj;
         }
