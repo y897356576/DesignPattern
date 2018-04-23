@@ -1,4 +1,4 @@
-package stonesStrict.pattern_strategy.flyBehavior;
+package stonesStrict.pattern_strategy.duck.flyBehavior;
 
 /**
  * Created by admin on 2018/4/17.

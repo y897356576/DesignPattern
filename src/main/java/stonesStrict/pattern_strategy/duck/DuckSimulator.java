@@ -1,8 +1,8 @@
-package stonesStrict.pattern_strategy;
+package stonesStrict.pattern_strategy.duck;
 
-import stonesStrict.pattern_strategy.duckEntity.MallardDuck;
-import stonesStrict.pattern_strategy.duckEntity.ModelDuck;
-import stonesStrict.pattern_strategy.flyBehavior.FlyRocketPowered;
+import stonesStrict.pattern_strategy.duck.duckEntity.MallardDuck;
+import stonesStrict.pattern_strategy.duck.duckEntity.ModelDuck;
+import stonesStrict.pattern_strategy.duck.flyBehavior.FlyRocketPowered;
 
 /**
  * Created by admin on 2018/4/17.

@@ -1,7 +1,7 @@
-package stonesStrict.pattern_strategy;
+package stonesStrict.pattern_strategy.duck;
 
-import stonesStrict.pattern_strategy.flyBehavior.FlyBehavior;
-import stonesStrict.pattern_strategy.quackBehavior.QuackBehavior;
+import stonesStrict.pattern_strategy.duck.flyBehavior.FlyBehavior;
+import stonesStrict.pattern_strategy.duck.quackBehavior.QuackBehavior;
 
 /**
  * Created by admin on 2018/4/17.
